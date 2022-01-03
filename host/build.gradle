@@ -1,0 +1,10 @@
+plugins {
+    id 'groovy'
+}
+
+version '0.1.0'
+
+dependencies {
+    compileOnly localGroovy()
+    implementation project(':lib')
+}
